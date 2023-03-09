@@ -3,16 +3,16 @@ include emu8086.inc
 
 .data  
 
-    game_draw  db "    |   |   ",0dh, 0ah,
-	           db "    |   |   ",0dh, 0ah,
+    game_draw  	       db "    |   |   ",0dh, 0ah,
+	               db "    |   |   ",0dh, 0ah,
 		       db "    |   |   ",0dh, 0ah,
 		       db " ---+---+---",0dh, 0ah,
 		       db "    |   |   ",0dh, 0ah,
-    	       db "    |   |   ",0dh, 0ah,
+    	      	       db "    |   |   ",0dh, 0ah,
 		       db "    |   |   ",0dh, 0ah,
 		       db " ---+---+---",0dh, 0ah,
 		       db "    |   |   ",0dh, 0ah,
-	           db "    |   |   ",0dh, 0ah,
+	               db "    |   |   ",0dh, 0ah,
 		       db "    |   |   ",0dh, 0ah, "$"  
                   
     new_line db 0dh, 0ah, "$"
